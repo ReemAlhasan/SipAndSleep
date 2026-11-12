@@ -2,7 +2,7 @@ function MoodPage() {
   return (
     <main>
       <h1>Mood</h1>
-      <p>Den här sidan är inte byggd än.</p>
+      <p>This page is not built yet.</p>
     </main>
   );
 }

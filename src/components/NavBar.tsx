@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router';
 import './NavBar.css';
 
-// Menyn som visas på alla sidor.
+// The menu shown on every page.
 function NavBar() {
   return (
     <nav className="navbar">

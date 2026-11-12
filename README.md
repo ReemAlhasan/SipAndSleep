@@ -1,9 +1,9 @@
 # Sip & Sleep
 
-Webbapp där man registrerar vatten, sömn och humör och ser sin historik.
-Projektgrupp 7 i TNM040. Byggd med React, TypeScript och Vite.
+A web app where you log water, sleep and mood and see your history.
+Project group 7 in TNM040. Built with React, TypeScript and Vite.
 
-## Kom igång (görs en gång)
+## Getting started (do this once)
 
 ```
 git clone https://github.com/ReemAlhasan/SipAndSleep.git
@@ -12,23 +12,23 @@ npm install
 npm run dev
 ```
 
-Öppna sedan adressen som visas i terminalen (oftast http://localhost:5173).
+Then open the address shown in the terminal (usually http://localhost:5173).
 
-## Så jobbar vi
+## How we work
 
-1. Hämta det senaste: `git checkout main` och `git pull`
-2. Skapa en egen branch: `git checkout -b mitt-branchnamn`
-3. Koda, och spara med `git add .` och `git commit -m "vad jag gjorde"`
-4. Ladda upp: `git push -u origin mitt-branchnamn`
-5. Öppna en pull request på GitHub. Gruppen granskar den på torsdagsträffen.
+1. Get the latest code: `git checkout main` and `git pull`
+2. Create your own branch: `git checkout -b my-branch-name`
+3. Write code, then save it with `git add .` and `git commit -m "what I did"`
+4. Upload it: `git push -u origin my-branch-name`
+5. Open a pull request on GitHub. The group reviews it at the Thursday meeting.
 
-Koden i `main` ska alltid fungera. Jobba aldrig direkt i `main`.
+The code in `main` must always work. Never work directly in `main`.
 
-## Mappar och filer
+## Folders and files
 
-- `src/main.tsx` startar React
-- `src/App.tsx` sköter routing (vilken sida som visas)
-- `src/pages/` en fil per sida
-- `src/components/` delar som används på flera sidor, t.ex. `NavBar`
-- `src/types.ts` datamodellen (`DayEntry`)
-- `src/index.css` gemensam grundstil
+- `src/main.tsx` starts React
+- `src/App.tsx` handles routing (which page is shown)
+- `src/pages/` one file per page
+- `src/components/` parts used on several pages, e.g. `NavBar`
+- `src/types.ts` the data model (`DayEntry`)
+- `src/index.css` shared base styles

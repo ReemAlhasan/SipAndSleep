@@ -8,7 +8,7 @@ import TodayPage from './pages/TodayPage';
 import HistoryPage from './pages/HistoryPage';
 import './App.css';
 
-// App sköter bara routing: adressen bestämmer vilken sida som visas.
+// App only handles routing: the URL decides which page is shown.
 function App() {
   return (
     <BrowserRouter>

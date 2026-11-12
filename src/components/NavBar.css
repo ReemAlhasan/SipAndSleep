@@ -11,7 +11,7 @@
   color: inherit;
 }
 
-/* NavLink lägger automatiskt på klassen "active" på sidan man är på */
+/* NavLink automatically adds the class "active" to the link for the current page */
 .navbar a.active {
   font-weight: bold;
   text-decoration: underline;
