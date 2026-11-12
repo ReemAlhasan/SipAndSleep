@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NavLink lägger automatiskt på klassen "active" på sidan man är på */
+.navbar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
