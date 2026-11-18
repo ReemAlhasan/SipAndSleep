@@ -1,0 +1,69 @@
+/* Covers the whole screen and darkens whatever page is behind it */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+/* The white box, placed in the middle of the screen on top of the dark background */
+.modal-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  width: 620px;
+  max-width: calc(100% - 32px);
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.modal-box h2 {
+  margin: 0 0 24px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.modal-box h3 {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.modal-box p {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+/* The X in the top right corner */
+.modal-x {
+  position: absolute;
+  top: 38px;
+  right: 38px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: inherit;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* The dark "Got it" button, pushed to the right */
+.modal-got-it {
+  display: block;
+  margin-left: auto;
+  padding: 14px 54px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 18px;
+  cursor: pointer;
+}

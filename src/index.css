@@ -1,13 +1,4 @@
-/* Shared base styles. Colors and fonts from Figma go here as variables. */
-:root {
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
 }
