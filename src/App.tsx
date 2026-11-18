@@ -20,7 +20,7 @@ function App() {
           <Route path="/water" element={<WaterPage />} />
           <Route path="/sleep" element={<SleepPage />} />
           <Route path="/mood" element={<MoodPage />} />
-          <Route path="/today" element={<TodayPage />} />
+          <Route path="/summary" element={<TodayPage />} />
           <Route path="/history" element={<HistoryPage />} />
         </Routes>
       </main>

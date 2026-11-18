@@ -1,0 +1,84 @@
+/* Keeps the page content in line with the navbar */
+.today-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 64px;
+}
+
+/* The date at the top, big and grey */
+.today-date {
+  margin: 0 0 48px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: #8c8c8c;
+}
+
+.today-title {
+  margin: 0 0 24px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* The three cards in a row. wrap = they move to a new row on small screens */
+.today-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.today-card {
+  flex: 1;
+  min-width: 220px;
+  padding: 24px;
+  border: 1.5px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* "Water", "Sleep" and "Mood" */
+.today-label {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/* "4 / 8 glasses", "7.5 hours" or "Not logged yet" */
+.today-value {
+  margin: 0 0 16px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* The empty water bar */
+.today-bar {
+  height: 10px;
+  border: 1.5px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* The black part of the bar */
+.today-bar-fill {
+  height: 100%;
+  background-color: #000000;
+}
+
+.today-card a {
+  color: #000000;
+}
+
+/* Smaller sizes on phones */
+@media (max-width: 600px) {
+  .today-page {
+    padding: 24px;
+  }
+
+  .today-date {
+    margin-bottom: 24px;
+    font-size: 30px;
+  }
+}
