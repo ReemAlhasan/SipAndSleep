@@ -11,6 +11,7 @@ import HistoryPage from "./pages/HistoryPage.tsx";
 import MoodPage from "./pages/MoodPage.tsx";
 import SleepPage from "./pages/SleepPage.tsx";
 import WaterPage from "./pages/WaterPage.tsx";
+import LoginPage from "./pages/LoginPage.tsx";
 
 function App() {
   // Who is logged in? null = nobody
@@ -35,7 +36,7 @@ function App() {
 
   // 2. Nobody logged in (we build the real login page in the next step)
   if (user === null) {
-    return <p>Please log in.</p>;
+    return <LoginPage />;
   }
 
   // 3. Logged in: show the app as before
